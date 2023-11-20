@@ -1,0 +1,19 @@
+1. World Wide Web e sistem na megjusebno povrzani hipertekstualni dokumenti  do koi se pristapuva preku internet 
+2. Request i response 
+3. Node JS е  "jazik" za izvrsuvanje na JavaScript programi i se koristi za gradenje na aplikacii. Express Js e Node JS ramka koja obezbeduva funckii za web aplikacii 
+4. MVC e shema ili metodologija na dizajn sto pomaga efikasno da gi povrzeme korisnickciot interfejs so osnovnite modeli na podatoci, odnosno odgovoren e za logikata na skladiranje na podatocite 
+5. Ruti se (pateki) prenasocuvanja, odnosno kako aplikacijata odgovara (ili treba da odgovori) na razlicni HTTP baranja 
+6. Moduli se blok na kod ( funkcija ) koja bi sakale da ja korisitime ponataka vo nasata aplikacija 
+* Imame:
+- Core Modules 
+- Local Modules
+- Third Party Modules 
+7. Web service e standardiziran nacin na komunikacija pomegju dva elektronski uredi preku internet mreza ( ovozmozuva razmena na podatoci ili funckionalnosti pomegju razlicni aplikacii)
+Na primer OpenWeatherApi koe obezbeduva vremesnki podatoci i im ovozmozuva da programerite pristap do tekovni vremenski uslovi, prognozi 
+8. JWT aftentikacija se sodrzi od slednive elementi ( cekori ):
+1. HEADER - cuvame tipot na token i algoritmot sto go korisitime
+2. PAYLOAD - sodrzi informacii za korisnikoiot
+3. SIGNATURE - headerot i payloadot se enkodiraat so plus secret recenica i se sozdava unikaten "potpis"
+9.MongoDB e  sistem za upravuvanje so baza na podatoci so otvoren kod. MongoDB skladira podatoci vo format slicen na JSON.
+10.MongoDB e baza na podatoci kade sto se skladiraaat podatocite vo fleksibilen format na dokument slicen na JSON format, dodeka mongoose sluzi za kreiranje na shemi za podatocite skladiranai vo MongoDB. MongoDB e sistem na baza na podatoci a mongoose e biblioteka vo javascript koja obezbeduva funkcii vo modeliranje i koristenje na podatocite od MongoDB
+11. Sihrona funcija znaci izvsuvanje na sekoja funcija edno po druga, odnosno se deodeka ne zavrsi izvrsuvanjeto na tekovnata funcija ( operacija/akcija) ne se preminuva na slednata. Asihronata funcija ovozmozuva programata da prodolzi so izvrsuvanje na drugite zadaci bez da se ceka da zavrsi odredena operacija 
